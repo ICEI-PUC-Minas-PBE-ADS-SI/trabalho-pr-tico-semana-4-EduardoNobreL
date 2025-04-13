@@ -1,12 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Portal de Notícias BH</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-    
+    <header class="main-header">
+        <div class="container">
+            <div class="header-content">
+                <h1>Portal de Notícias BH</h1>
+                <form class="search-form">
+                    <input type="search" class="form-control" placeholder="Buscar notícias..." required>
+                    <button type="submit" class="btn btn-primary">Buscar</button>
+                </form>
+            </div>
+            <nav class="main-nav">
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#politica">Política</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#economia">Economia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#esportes">Esportes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#cultura">Cultura</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="featured-news">
+            <article class="main-article">
+                <img src="https://picsum.photos/id/1/800/400" alt="Notícia Principal" class="img-fluid">
+                <h2>Novo Parque será Inaugurado no Centro de BH</h2>
+                <p>Espaço verde trará mais qualidade de vida para moradores da região central...</p>
+            </article>
+        </section>
+
+        <section class="row news-grid">
+            <article class="col-md-4 news-card">
+                <img src="https://picsum.photos/id/2/400/200" alt="Notícia 1" class="img-fluid">
+                <h3>Reforma do Mercado Central</h3>
+                <p>Obras devem começar no próximo mês...</p>
+            </article>
+
+            <article class="col-md-4 news-card">
+                <img src="https://picsum.photos/id/3/400/200" alt="Notícia 2" class="img-fluid">
+                <h3>Festival de Gastronomia</h3>
+                <p>Evento reunirá chefs renomados da cidade...</p>
+            </article>
+
+            <article class="col-md-4 news-card">
+                <img src="https://picsum.photos/id/4/400/200" alt="Notícia 3" class="img-fluid">
+                <h3>Novo Sistema de Transporte</h3>
+                <p>Cidade implementa melhorias no transporte público...</p>
+            </article>
+        </section>
+
+        <section class="newsletter">
+            <h2>Receba nossas notícias</h2>
+            <form class="newsletter-form">
+                <input type="email" class="form-control" placeholder="Seu melhor e-mail" required>
+                <button type="submit" class="btn btn-success">Inscrever-se</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Sobre Nós</h3>
+                <p>Portal de notícias dedicado a manter você informado sobre os acontecimentos em BH.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contato</h3>
+                <p>Email: contato@portalbh.com.br</p>
+                <p>Telefone: (31) 3333-3333</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Portal de Notícias BH. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>

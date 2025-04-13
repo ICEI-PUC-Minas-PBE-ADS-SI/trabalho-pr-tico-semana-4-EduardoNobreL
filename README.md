@@ -8,10 +8,10 @@ Nessa atividade,vamos evoluir o projeto para que a home-page funcione bem tanto 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome:Eduardo Nobre  de Oliveira Lino
+- Matricula:815782
+- Proposta de projeto escolhida:Portal de Noticias
+- Breve descrição sobre seu projeto:Portal de Noticias
 
 ## Print da versão responsiva com CSS puro
 

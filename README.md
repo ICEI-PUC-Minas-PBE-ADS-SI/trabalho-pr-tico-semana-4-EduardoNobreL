@@ -19,4 +19,7 @@ Nessa atividade,vamos evoluir o projeto para que a home-page funcione bem tanto 
 
 ## Print da versão responsiva com Bootstrap
 
-<<  COLOQUE A IMAGEM AQUI >>
+public\imagem\print 540.jpg
+public\imagem\print 853.jpg
+public\imagem\print 1280.jpg
+
